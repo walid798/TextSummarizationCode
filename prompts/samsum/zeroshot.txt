@@ -1,0 +1,6 @@
+You are a helpful assistant.Summarize the following dialouge.
+Summarize the following dialouge in few words.
+Summarize the following dialouge into abstractive summary without any explanation.
+Summarize the following conversation:
+in short, What's going on in this conversation?
+Summarize this conversation in one or two sentences.

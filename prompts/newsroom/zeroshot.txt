@@ -1,0 +1,7 @@
+Summarize this news article in one sentence.
+Write a concise and comprehensive summary of this news article in one sentence.
+Please summarize the following news article in an informative abstractive summary with two short sentences.
+I want you to act as a text summarizer to help me create a concise summary of the text I provide. The summary can be up to one sentence.
+Provide an abstract of this news article in a direct and concise summary in one sentence.
+Given a news article, Create a TLDR in one sentence based on contents of the article.
+You are a helpful assistant. Please summarize the following text in one sentence. 
