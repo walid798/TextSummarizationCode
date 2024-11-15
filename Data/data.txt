@@ -1,0 +1,7 @@
+Due to size constraints, the datasets are not included in this repository. 
+Download each dataset from its respective source as follows:
+
+cnn_dailymail >> https://github.com/abisee/cnn-dailymail
+newsroom      >> https://lil.nlp.cornell.edu/newsroom/
+samsum        >> https://arxiv.org/src/1911.12237v2/anc
+arxiv         >> https://github.com/armancohan/long-summarization
