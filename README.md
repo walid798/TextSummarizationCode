@@ -9,7 +9,6 @@ This repository contains the code, datasets, and results used in the paper "An E
   - [Results](#Results)
   - [Evaluation Metrics](#Evaluation_Metrics)
   - [Contributions](#Contributions)
-  - [License](#License)
   - [Acknowledgments](#Acknowledgments)
 
 ## Overview
