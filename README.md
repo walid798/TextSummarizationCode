@@ -20,14 +20,14 @@ Scientific Papers Summarization: ArXiv dataset
 The study explores the performance of LLMs using multiple prompt engineering techniques, such as zero-shot and in-context learning. Evaluation metrics include ROUGE and BERTScore, among others.
  
 ## Repository_Structure
-|-- code/&nbsp;&nbsp;&nbsp;&nbsp;                   # source code for experiments<br />
-|&nbsp;   |-- data_processing/ &nbsp;   # Scripts for preprocessing datasets<br />
-|&nbsp;   |-- evaluation/&nbsp;         # Scripts for calculating evaluation metrics<br />
-|-- prompts/&nbsp;&nbsp;&nbsp;                # Different prompts used in each dataset<br />
-|-- data/&nbsp;&nbsp;&nbsp;                   # Utilized dataset<br />
-|-- results/&nbsp;&nbsp;&nbsp;                # Contains generated summaries and results files<br />
-|-- figures/&nbsp;&nbsp;&nbsp;                # Plots and figures for analysis<br />
-|-- README.md&nbsp;&nbsp;&nbsp;               # Project README file<br />
+|-- code/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;                     source code for experiments<br />
+|&nbsp;   |-- data_processing/ &nbsp;&nbsp; &nbsp; &nbsp;     Scripts for preprocessing datasets<br />
+|&nbsp;   |-- evaluation/&nbsp; &nbsp; &nbsp; &nbsp;          Scripts for calculating evaluation metrics<br />
+|-- prompts/&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;                 Different prompts used in each dataset<br />
+|-- data/&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;                    Utilized dataset<br />
+|-- results/&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;                 Contains generated summaries and results files<br />
+|-- figures/&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;                 Plots and figures for analysis<br />
+|-- README.md&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;                Project README file<br />
  
 
 ## Datasets
@@ -39,10 +39,10 @@ SAMSum (for dialogue summarization)
 ArXiv (for scientific paper summarization)
 ### Accessing the Datasets
 Due to size constraints, the datasets are not included in this repository. Download each dataset from its respective source as follows:<br/>
-|-- cnn_dailymail&nbsp;  >> https://github.com/abisee/cnn-dailymail <br />
-|-- newsroom&nbsp; &nbsp;       >> https://lil.nlp.cornell.edu/newsroom/<br/>
-|-- samsum&nbsp; &nbsp;         >> https://arxiv.org/src/1911.12237v2/anc<br/>
-|-- arxiv&nbsp; &nbsp;          >> https://github.com/armancohan/long-summarization<br/>
+|-- cnn_dailymail&nbsp;&nbsp; &nbsp;            >> https://github.com/abisee/cnn-dailymail <br />
+|-- newsroom&nbsp; &nbsp;&nbsp; &nbsp;          >> https://lil.nlp.cornell.edu/newsroom/<br/>
+|-- samsum&nbsp; &nbsp;&nbsp; &nbsp;            >> https://arxiv.org/src/1911.12237v2/anc<br/>
+|-- arxiv&nbsp; &nbsp;&nbsp; &nbsp;             >> https://github.com/armancohan/long-summarization<br/>
 
 ## Prompts
 Due to the difference nature of the used datasets we used different prompts for each dataset in ZSL and FSL.
