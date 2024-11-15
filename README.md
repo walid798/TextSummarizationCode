@@ -10,7 +10,7 @@ This repository contains the code, datasets, and results used in the paper "An E
   - [Evaluation Metrics](#Evaluation_Metrics)
   - [Contributions](#Contributions)
   - [Acknowledgments](#Acknowledgments)
-
+ 
 ## Overview
 In this study, we systematically evaluate large language models (LLMs) on four text summarization tasks across different domains, including:
 
@@ -18,31 +18,31 @@ News Summarization: CNN/Daily Mail and NewsRoom datasets
 Dialogue Summarization: SAMSum dataset
 Scientific Papers Summarization: ArXiv dataset
 The study explores the performance of LLMs using multiple prompt engineering techniques, such as zero-shot and in-context learning. Evaluation metrics include ROUGE and BERTScore, among others.
-
+ 
 ## Repository_Structure
-|-- code/                   # source code for experiments
-|   |-- data_processing/    # Scripts for preprocessing datasets
-|   |-- evaluation/         # Scripts for calculating evaluation metrics
-|-- prompts/                # Different prompts used in each dataset
-|-- data/                   # Utilized dataset
-|-- results/                # Contains generated summaries and results files
-|-- figures/                # Plots and figures for analysis
-|-- README.md               # Project README file
-
+|-- code/&nbsp;&nbsp;&nbsp;&nbsp;                   # source code for experiments<br />
+|&nbsp;   |-- data_processing/ &nbsp;   # Scripts for preprocessing datasets<br />
+|&nbsp;   |-- evaluation/&nbsp;         # Scripts for calculating evaluation metrics<br />
+|-- prompts/&nbsp;&nbsp;&nbsp;                # Different prompts used in each dataset<br />
+|-- data/&nbsp;&nbsp;&nbsp;                   # Utilized dataset<br />
+|-- results/&nbsp;&nbsp;&nbsp;                # Contains generated summaries and results files<br />
+|-- figures/&nbsp;&nbsp;&nbsp;                # Plots and figures for analysis<br />
+|-- README.md&nbsp;&nbsp;&nbsp;               # Project README file<br />
+ 
 
 ## Datasets
-
+ 
 The datasets used in this study are:
 
 CNN/Daily Mail and NewsRoom (for news summarization)
 SAMSum (for dialogue summarization)
 ArXiv (for scientific paper summarization)
 ### Accessing the Datasets
-Due to size constraints, the datasets are not included in this repository. Download each dataset from its respective source as follows:
-|-- cnn_dailymail >> https://github.com/abisee/cnn-dailymail
-|-- newsroom      >> https://lil.nlp.cornell.edu/newsroom/
-|-- samsum        >> https://arxiv.org/src/1911.12237v2/anc
-|-- arxiv         >> https://github.com/armancohan/long-summarization
+Due to size constraints, the datasets are not included in this repository. Download each dataset from its respective source as follows:<br/>
+|-- cnn_dailymail&nbsp;  >> https://github.com/abisee/cnn-dailymail <br />
+|-- newsroom&nbsp; &nbsp;       >> https://lil.nlp.cornell.edu/newsroom/<br/>
+|-- samsum&nbsp; &nbsp;         >> https://arxiv.org/src/1911.12237v2/anc<br/>
+|-- arxiv&nbsp; &nbsp;          >> https://github.com/armancohan/long-summarization<br/>
 
 ## Prompts
 Due to the difference nature of the used datasets we used different prompts for each dataset in ZSL and FSL.
